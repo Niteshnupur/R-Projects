@@ -1,0 +1,83 @@
+Q10 = R2 or adjusted R2, which metric to be used to check goodness of the model?
+
+
+I know higher the value of R-square directly proportionate to good model.
+linear regression we should look at adjusted R square instead of R square.
+always suggested that you use Adjusted R-squared to judge goodness of model.
+
+ans = adjusted R2
+
+
+
+Q9 = How is box plot upper whisker is calculated ?
+
+The length of the upper whisker is the largest value that is no greater than the third quartile plus 1.5 times the interquartile range. 
+In this case, the third quartile plus 1.5 times IQR is 10 + 1.5*6 = 19. 
+The largest value that is no greater than 19 is 13, so the upper whisker will reach to 13.
+
+ans =  Q3 + 1.5×IQR
+
+
+
+Q8 = Whether the data given (train data) is a balanced or extremely imbalanced data( ratio of response class counts even more extreme than 5%:95%)?
+
+5% of 95%
+
+5% × 95 = (5 ÷ 100) × 95 = (5 × 95) ÷ 100 = 475 ÷ 100 = 4.75,
+
+Answer: 5% of 95 = 4.75 
+
+Balanced
+
+
+
+Q7 = Does validation help in generalising the model?
+
+
+Validation set actually can be regarded as a part of training set, because it is used to build your model
+
+Generalisation: Your model should be generalise enough to do prediction for unknown.
+Test Data: Validate your model prediction capaability.
+
+
+Yes
+
+
+Q6 = Should the variable ID be included in building the model?
+
+No
+
+
+
+Q5 = Model with 'lower AIC' value is a better model or the model with 'higher AIC' value?
+
+
+lower AIC
+
+
+
+Q4 = which function is used to remove multicollinearity among variables?
+
+The Variance Inflation Factor (VIF)
+
+ans = vif
+
+
+Q3 = Find the variance of variable balance.
+
+ 9273256
+
+
+
+
+Q2 = Total number of outliers present in the variable balance.Use ‘Q1-1.5*IQR’ to calculate lower limit and ‘Q3 + 1.5×IQR’ to calculate upper limit. 
+calculate the count of values in variable balance which are beyond these limits.
+
+
+ans = 3329
+
+
+
+Q1 = Find mean of the variable age. Round off to 2 decimal places.
+
+ans = 40.94
